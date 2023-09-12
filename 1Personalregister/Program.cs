@@ -41,6 +41,7 @@
                 }
                 Console.WriteLine("Vill du fortsätta ange information? Typ \"ja\"\nOm inte, tryck på en annan knapp!");
                 printOutput = Console.ReadLine().ToLower();
+                Console.Clear();
             }
 
             foreach (var item in list)
